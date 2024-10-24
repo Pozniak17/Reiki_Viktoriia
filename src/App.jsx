@@ -17,8 +17,14 @@ function App() {
           <NavLink className={css.link} to="/">
             Home
           </NavLink>
-          <NavLink className={css.link} to="/my-story">
-            My Story
+          <NavLink className={css.link} to="/about-me">
+            About me
+          </NavLink>
+          <NavLink className={css.link} to="/services">
+            Reiki Services
+          </NavLink>
+          <NavLink className={css.link} to="/calendar">
+            Calendar
           </NavLink>
         </nav>
       </header>
